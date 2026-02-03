@@ -56,7 +56,6 @@ h6 {
   color: #fbfff1;
   text-transform: lowercase;
   font-size: 15px;
-  position: fixed;
   bottom: 0;
   text-align: center;
   width: 100%;
@@ -240,5 +239,6 @@ img {
   animation-duration: 1.5s;
 
 }
+
 
 
