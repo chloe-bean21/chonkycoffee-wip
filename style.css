@@ -1,12 +1,12 @@
 /* fonts */
 @font-face {
   font-family: 'Bristol';
-  src: url('fonts/bristol.regular.otf') format('opentype')
+  src: url('bristol.regular.otf') format('opentype')
 
 }
 @font-face {
   font-family: 'Just Breathe';
-  src: url('fonts/JustBreathe.otf') format('opentype')
+  src: url('JustBreathe.otf') format('opentype')
 
 }
 
@@ -240,5 +240,6 @@ img {
   animation-duration: 1.5s;
 
 }
+
 
 
