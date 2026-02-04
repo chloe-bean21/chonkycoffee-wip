@@ -127,10 +127,7 @@ h6 {
   max-height: 80%;
   background: #af7f73;
 }
-.menuimg {
-  width: 200px;
-  height: 200px;
-}
+
 .drinkbutton {
   border-radius: 4px;
   padding: 6px;
@@ -139,6 +136,9 @@ h6 {
   border-color: #fbfff1;
   cursor: url("Latte\ Writing.cur"), pointer;
   transition: background 0.3s ease;
+  font-family: 'Bristol', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 .drinkbutton:hover, .drinkbutton.hovered {
   background: #633f2a;
@@ -147,13 +147,7 @@ h6 {
   display: block;
   left: 100%;
 }
-@media (max-width: 600px){
-  .drinkcontent {
-    left:0;
-    top: 100%;
-    transform: none;
-  }
-}
+
 
 
 
@@ -221,11 +215,17 @@ h6 {
 
 .carousel-item {
   display: none;
-}
-img {
   vertical-align: middle;
   width: 300px;
   height: 300px;
+  object-fit: fill;
+  opacity: 2;
+  position: relative;
+}
+img {
+  vertical-align: middle;
+  width: 250px;
+  height: 250px;
   object-fit: fill;
   opacity: 2;
   position: relative;
@@ -235,11 +235,3 @@ img {
   position: relative;
   margin: auto;
 }
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-
-}
-
-
-
