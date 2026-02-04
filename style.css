@@ -59,7 +59,7 @@ h6 {
   position: fixed;
   bottom: 0;
   text-align: center;
-  width: 100%;
+  line-height: 10;
 }
 
 
@@ -235,3 +235,4 @@ img {
   position: relative;
   margin: auto;
 }
+
