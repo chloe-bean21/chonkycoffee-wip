@@ -167,7 +167,7 @@ h6 {
 .sweetness-slider {
   -webkit-appearance: initial;
   appearance: initial;
-  width: 85%;
+  width: 82%;
   background: #ebb1c6;
   outline: black
 }
@@ -235,4 +235,5 @@ img {
   position: relative;
   margin: auto;
 }
+
 
